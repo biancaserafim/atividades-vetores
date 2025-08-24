@@ -1,0 +1,4 @@
+C:\Users\bianc\Downloads\atividadesvetor\obj\Debug\net9.0\atividadesvetor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bianc\Downloads\atividadesvetor\obj\Debug\net9.0\atividadesvetor.AssemblyInfoInputs.cache
+C:\Users\bianc\Downloads\atividadesvetor\obj\Debug\net9.0\atividadesvetor.AssemblyInfo.cs
+C:\Users\bianc\Downloads\atividadesvetor\obj\Debug\net9.0\atividadesvetor.csproj.CoreCompileInputs.cache
