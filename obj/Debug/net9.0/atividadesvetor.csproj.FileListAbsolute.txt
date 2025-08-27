@@ -2,3 +2,14 @@ C:\Users\bianc\Downloads\atividadesvetor\obj\Debug\net9.0\atividadesvetor.Genera
 C:\Users\bianc\Downloads\atividadesvetor\obj\Debug\net9.0\atividadesvetor.AssemblyInfoInputs.cache
 C:\Users\bianc\Downloads\atividadesvetor\obj\Debug\net9.0\atividadesvetor.AssemblyInfo.cs
 C:\Users\bianc\Downloads\atividadesvetor\obj\Debug\net9.0\atividadesvetor.csproj.CoreCompileInputs.cache
+C:\Users\bianc\Downloads\atividadesvetor\obj\Debug\net9.0\atividadesvetor.sourcelink.json
+C:\Users\bianc\Downloads\atividadesvetor\bin\Debug\net9.0\atividadesvetor.exe
+C:\Users\bianc\Downloads\atividadesvetor\bin\Debug\net9.0\atividadesvetor.deps.json
+C:\Users\bianc\Downloads\atividadesvetor\bin\Debug\net9.0\atividadesvetor.runtimeconfig.json
+C:\Users\bianc\Downloads\atividadesvetor\bin\Debug\net9.0\atividadesvetor.dll
+C:\Users\bianc\Downloads\atividadesvetor\bin\Debug\net9.0\atividadesvetor.pdb
+C:\Users\bianc\Downloads\atividadesvetor\obj\Debug\net9.0\atividadesvetor.dll
+C:\Users\bianc\Downloads\atividadesvetor\obj\Debug\net9.0\refint\atividadesvetor.dll
+C:\Users\bianc\Downloads\atividadesvetor\obj\Debug\net9.0\atividadesvetor.pdb
+C:\Users\bianc\Downloads\atividadesvetor\obj\Debug\net9.0\atividadesvetor.genruntimeconfig.cache
+C:\Users\bianc\Downloads\atividadesvetor\obj\Debug\net9.0\ref\atividadesvetor.dll
