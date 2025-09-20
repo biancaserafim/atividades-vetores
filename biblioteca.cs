@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Specialized;
 
 namespace MinhaBiblioteca
 {
@@ -10,9 +11,8 @@ namespace MinhaBiblioteca
             for (int i = 0; i < vetor.Length; i++)
             {
                 Console.Write($"Array[{i}]:");
-               vetor[i] = int.Parse(Console.ReadLine()!);
-
-            }
+                vetor[i] = int.Parse(Console.ReadLine());
+            }// fim for
 
         }
 
@@ -35,8 +35,7 @@ namespace MinhaBiblioteca
         {
             int n;
             Console.WriteLine("Entre com o tamanho do vetor:");
-           n = int.Parse(Console.ReadLine()!);
-
+            n = int.Parse(Console.ReadLine());
             int[] meuVetor = new int[n];
             lerVetor(meuVetor);
             mostrarVetor(meuVetor);
@@ -83,5 +82,56 @@ namespace MinhaBiblioteca
             }
             return maior;
         }
+        public static string complementarDNA(string dna)
+        {
+            int n = dna.Length;
+            dna = dna.ToUpper();
+            char[] complemento = new char[n];
+            for (int i = 0; i < n; i++)
+            {
+                switch (dna[i])
+                {
+                    case 'A':
+                        complemento[i] = 'T';
+                        break;
+                    case 'T':
+                        complemento[i] = 'A';
+                        break;
+                    case 'C':
+                        complemento[i] = 'G';
+                        break;
+                    case 'G':
+                        complemento[i] = 'C';
+                        break;
+                    default:
+                        complemento[i] = 'N';
+                        break;
+                }
+            }
+            return new string(complemento);
+        }
+
+        public static void sortearVetor(int[] vetor)
+        {
+            Random rand = new Random();
+            for (int i = 0; i < vetor.Length; i++)
+            {
+                vetor[i] = rand.Next(1, 100);
+            }
+        }
+
+        public static int procurarNumero(int[] vetor, int num)
+        {
+            for (int i = 0; i < vetor.Length; i++)
+            {
+                if (vetor[i] == num)
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
+
+        
     }
 }
